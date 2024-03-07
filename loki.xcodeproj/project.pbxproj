@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3B60DD2B999A9D0064EFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B60DC2B999A9D0064EFA9 /* AppDelegate.swift */; };
+		CD3B60DF2B999A9D0064EFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B60DE2B999A9D0064EFA9 /* SceneDelegate.swift */; };
+		CD3B60E12B999A9D0064EFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B60E02B999A9D0064EFA9 /* ViewController.swift */; };
+		CD3B60E42B999A9D0064EFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3B60E22B999A9D0064EFA9 /* Main.storyboard */; };
+		CD3B60E72B999A9D0064EFA9 /* loki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD3B60E52B999A9D0064EFA9 /* loki.xcdatamodeld */; };
+		CD3B60E92B999A9F0064EFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3B60E82B999A9F0064EFA9 /* Assets.xcassets */; };
+		CD3B60EC2B999A9F0064EFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3B60EA2B999A9F0064EFA9 /* LaunchScreen.storyboard */; };
+		CD3B60F72B999A9F0064EFA9 /* lokiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B60F62B999A9F0064EFA9 /* lokiTests.swift */; };
+		CD3B61012B999A9F0064EFA9 /* lokiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B61002B999A9F0064EFA9 /* lokiUITests.swift */; };
+		CD3B61032B999A9F0064EFA9 /* lokiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B61022B999A9F0064EFA9 /* lokiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3B60F32B999A9F0064EFA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3B60D12B999A9D0064EFA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3B60D82B999A9D0064EFA9;
+			remoteInfo = loki;
+		};
+		CD3B60FD2B999A9F0064EFA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3B60D12B999A9D0064EFA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3B60D82B999A9D0064EFA9;
+			remoteInfo = loki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3B60D92B999A9D0064EFA9 /* loki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B60DC2B999A9D0064EFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD3B60DE2B999A9D0064EFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD3B60E02B999A9D0064EFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD3B60E32B999A9D0064EFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3B60E62B999A9D0064EFA9 /* loki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = loki.xcdatamodel; sourceTree = "<group>"; };
+		CD3B60E82B999A9F0064EFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3B60EB2B999A9F0064EFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3B60ED2B999A9F0064EFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3B60F22B999A9F0064EFA9 /* lokiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lokiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B60F62B999A9F0064EFA9 /* lokiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lokiTests.swift; sourceTree = "<group>"; };
+		CD3B60FC2B999A9F0064EFA9 /* lokiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lokiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3B61002B999A9F0064EFA9 /* lokiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lokiUITests.swift; sourceTree = "<group>"; };
+		CD3B61022B999A9F0064EFA9 /* lokiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lokiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3B60D62B999A9D0064EFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B60EF2B999A9F0064EFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B60F92B999A9F0064EFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3B60D02B999A9D0064EFA9 = {
+			isa = PBXGroup;
+			children = (
+				CD3B60DB2B999A9D0064EFA9 /* loki */,
+				CD3B60F52B999A9F0064EFA9 /* lokiTests */,
+				CD3B60FF2B999A9F0064EFA9 /* lokiUITests */,
+				CD3B60DA2B999A9D0064EFA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3B60DA2B999A9D0064EFA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B60D92B999A9D0064EFA9 /* loki.app */,
+				CD3B60F22B999A9F0064EFA9 /* lokiTests.xctest */,
+				CD3B60FC2B999A9F0064EFA9 /* lokiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3B60DB2B999A9D0064EFA9 /* loki */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B60DC2B999A9D0064EFA9 /* AppDelegate.swift */,
+				CD3B60DE2B999A9D0064EFA9 /* SceneDelegate.swift */,
+				CD3B60E02B999A9D0064EFA9 /* ViewController.swift */,
+				CD3B60E22B999A9D0064EFA9 /* Main.storyboard */,
+				CD3B60E82B999A9F0064EFA9 /* Assets.xcassets */,
+				CD3B60EA2B999A9F0064EFA9 /* LaunchScreen.storyboard */,
+				CD3B60ED2B999A9F0064EFA9 /* Info.plist */,
+				CD3B60E52B999A9D0064EFA9 /* loki.xcdatamodeld */,
+			);
+			path = loki;
+			sourceTree = "<group>";
+		};
+		CD3B60F52B999A9F0064EFA9 /* lokiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B60F62B999A9F0064EFA9 /* lokiTests.swift */,
+			);
+			path = lokiTests;
+			sourceTree = "<group>";
+		};
+		CD3B60FF2B999A9F0064EFA9 /* lokiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B61002B999A9F0064EFA9 /* lokiUITests.swift */,
+				CD3B61022B999A9F0064EFA9 /* lokiUITestsLaunchTests.swift */,
+			);
+			path = lokiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3B60D82B999A9D0064EFA9 /* loki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3B61062B999A9F0064EFA9 /* Build configuration list for PBXNativeTarget "loki" */;
+			buildPhases = (
+				CD3B60D52B999A9D0064EFA9 /* Sources */,
+				CD3B60D62B999A9D0064EFA9 /* Frameworks */,
+				CD3B60D72B999A9D0064EFA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loki;
+			productName = loki;
+			productReference = CD3B60D92B999A9D0064EFA9 /* loki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3B60F12B999A9F0064EFA9 /* lokiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3B61092B999A9F0064EFA9 /* Build configuration list for PBXNativeTarget "lokiTests" */;
+			buildPhases = (
+				CD3B60EE2B999A9F0064EFA9 /* Sources */,
+				CD3B60EF2B999A9F0064EFA9 /* Frameworks */,
+				CD3B60F02B999A9F0064EFA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3B60F42B999A9F0064EFA9 /* PBXTargetDependency */,
+			);
+			name = lokiTests;
+			productName = lokiTests;
+			productReference = CD3B60F22B999A9F0064EFA9 /* lokiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3B60FB2B999A9F0064EFA9 /* lokiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3B610C2B999A9F0064EFA9 /* Build configuration list for PBXNativeTarget "lokiUITests" */;
+			buildPhases = (
+				CD3B60F82B999A9F0064EFA9 /* Sources */,
+				CD3B60F92B999A9F0064EFA9 /* Frameworks */,
+				CD3B60FA2B999A9F0064EFA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3B60FE2B999A9F0064EFA9 /* PBXTargetDependency */,
+			);
+			name = lokiUITests;
+			productName = lokiUITests;
+			productReference = CD3B60FC2B999A9F0064EFA9 /* lokiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3B60D12B999A9D0064EFA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CD3B60D82B999A9D0064EFA9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					CD3B60F12B999A9F0064EFA9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CD3B60D82B999A9D0064EFA9;
+					};
+					CD3B60FB2B999A9F0064EFA9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CD3B60D82B999A9D0064EFA9;
+					};
+				};
+			};
+			buildConfigurationList = CD3B60D42B999A9D0064EFA9 /* Build configuration list for PBXProject "loki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3B60D02B999A9D0064EFA9;
+			productRefGroup = CD3B60DA2B999A9D0064EFA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3B60D82B999A9D0064EFA9 /* loki */,
+				CD3B60F12B999A9F0064EFA9 /* lokiTests */,
+				CD3B60FB2B999A9F0064EFA9 /* lokiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3B60D72B999A9D0064EFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3B60EC2B999A9F0064EFA9 /* LaunchScreen.storyboard in Resources */,
+				CD3B60E92B999A9F0064EFA9 /* Assets.xcassets in Resources */,
+				CD3B60E42B999A9D0064EFA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B60F02B999A9F0064EFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B60FA2B999A9F0064EFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3B60D52B999A9D0064EFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3B60E72B999A9D0064EFA9 /* loki.xcdatamodeld in Sources */,
+				CD3B60E12B999A9D0064EFA9 /* ViewController.swift in Sources */,
+				CD3B60DD2B999A9D0064EFA9 /* AppDelegate.swift in Sources */,
+				CD3B60DF2B999A9D0064EFA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B60EE2B999A9F0064EFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3B60F72B999A9F0064EFA9 /* lokiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B60F82B999A9F0064EFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3B61012B999A9F0064EFA9 /* lokiUITests.swift in Sources */,
+				CD3B61032B999A9F0064EFA9 /* lokiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3B60F42B999A9F0064EFA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3B60D82B999A9D0064EFA9 /* loki */;
+			targetProxy = CD3B60F32B999A9F0064EFA9 /* PBXContainerItemProxy */;
+		};
+		CD3B60FE2B999A9F0064EFA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3B60D82B999A9D0064EFA9 /* loki */;
+			targetProxy = CD3B60FD2B999A9F0064EFA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3B60E22B999A9D0064EFA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3B60E32B999A9D0064EFA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3B60EA2B999A9F0064EFA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3B60EB2B999A9F0064EFA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3B61042B999A9F0064EFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD3B61052B999A9F0064EFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3B61072B999A9F0064EFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = loki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lc.loki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3B61082B999A9F0064EFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = loki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lc.loki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD3B610A2B999A9F0064EFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lc.lokiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loki";
+			};
+			name = Debug;
+		};
+		CD3B610B2B999A9F0064EFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lc.lokiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loki";
+			};
+			name = Release;
+		};
+		CD3B610D2B999A9F0064EFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lc.lokiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loki;
+			};
+			name = Debug;
+		};
+		CD3B610E2B999A9F0064EFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lc.lokiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3B60D42B999A9D0064EFA9 /* Build configuration list for PBXProject "loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B61042B999A9F0064EFA9 /* Debug */,
+				CD3B61052B999A9F0064EFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3B61062B999A9F0064EFA9 /* Build configuration list for PBXNativeTarget "loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B61072B999A9F0064EFA9 /* Debug */,
+				CD3B61082B999A9F0064EFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3B61092B999A9F0064EFA9 /* Build configuration list for PBXNativeTarget "lokiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B610A2B999A9F0064EFA9 /* Debug */,
+				CD3B610B2B999A9F0064EFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3B610C2B999A9F0064EFA9 /* Build configuration list for PBXNativeTarget "lokiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3B610D2B999A9F0064EFA9 /* Debug */,
+				CD3B610E2B999A9F0064EFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD3B60E52B999A9D0064EFA9 /* loki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD3B60E62B999A9D0064EFA9 /* loki.xcdatamodel */,
+			);
+			currentVersion = CD3B60E62B999A9D0064EFA9 /* loki.xcdatamodel */;
+			path = loki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD3B60D12B999A9D0064EFA9 /* Project object */;
+}
